@@ -1,0 +1,258 @@
+/* All Pages*/
+
+.heading {
+	font-family : "Comic Sans MS", cursive, sans-serif;
+	text-decoration: blink;
+	text-shadow: 1px 2px 10px grey;
+	text-align: center;
+}
+
+
+body {
+	/*background-image : url(background.jpg);
+	background-attachment: fixed;*/
+	margin: 0px;
+}
+
+header {
+	background: -webkit-linear-gradient(bottom, Indigo 20%, BlueViolet );
+	background: -moz-linear-gradient(bottom, Indigo 20%, BlueViolet );
+	background: -o-linear-gradient(bottom, Indigo 20%, BlueViolet );
+	background: -ms-linear-gradient(bottom, Indigo 20%, BlueViolet );
+	padding: 10px;
+	text-align: center;
+	color: white;
+	text-align: center;
+	font-family : "Comic Sans MS", cursive, sans-serif;
+}
+
+div {
+	padding: 10px;
+}
+
+#searchBut {
+	color: white;
+	background: black;
+	border: solid black;
+	cursor: pointer;
+}
+
+nav a {
+	padding: 10px;
+	background: black;
+	border: solid black;
+	text-align: center;
+	color: white;
+	font-family : "Comic Sans MS", cursive, sans-serif;
+	width: 10%;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a.left {
+	border-radius: 20px 0px 0px 20px
+}
+
+a.right {
+	border-radius: 0px 20px 20px 0px
+}
+
+nav a:hover {
+	background: grey;
+	border: solid grey;
+}
+
+nav {
+	padding: 10px;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	background: indigo;
+	color: white;
+	font-family : "Comic Sans MS", cursive, sans-serif;
+	width: 100%;
+	clear: left;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+footer a {
+	padding: 10px;
+	background: black;
+	border: solid black;
+	text-align: center;
+	color: white;
+	font-family : "Comic Sans MS", cursive, sans-serif;
+	width: 8%;
+	text-decoration: none;
+	display: inline-block;
+}
+
+footer a:hover {
+	background: grey;
+	border: solid grey;
+}
+
+.content {
+	text-align: center;
+	display: table;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.contentCell {
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	border: 5px solid black;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px;
+	text-decoration: none;
+	color: indigo;
+}
+
+.list:hover {
+	text-decoration: underline;
+	color: indigo;
+}
+
+select {
+	padding: 10px;
+	background: black;
+	border: solid black;
+	text-align: center;
+	color: white;
+	font-family : "Comic Sans MS", cursive, sans-serif;
+	width: 10%;
+	float: right;
+}
+
+div.options {
+	width: 75%;
+	padding: 10px;
+	margin: auto;
+}
+
+div.embed {
+	padding: 10px;
+	margin: 10px;
+}
+
+a.next {
+	padding: 10px;
+	background: black;
+	border: solid black;
+	text-align: center;
+	color: white;
+	font-family : "Comic Sans MS", cursive, sans-serif;
+	width: 12%;
+	text-decoration: none;
+	display: inline-block;
+	float: right;
+}
+
+a.previous {
+	padding: 10px;
+	background: black;
+	border: solid black;
+	text-align: center;
+	color: white;
+	font-family : "Comic Sans MS", cursive, sans-serif;
+	width: 12%;
+	text-decoration: none;
+	display: inline-block;
+	float: left;
+}
+
+a.next:hover {
+	background: grey;
+	border: solid grey;
+}
+
+a.previous:hover {
+	background: grey;
+	border: solid grey;
+}
+
+
+
+/* Home Page*/
+
+.homeContent {
+	text-align: center;
+	display: table;
+	width: 100%;
+	background-image : url(background.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+div.homeCell {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	border: 5px solid black;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px;
+	text-decoration: none;
+}
+
+div.homeCell a:hover {
+	text-decoration: underline;
+}
+
+ul {
+	text-align: left;
+}
+
+/* Categories Page*/
+
+.catContent {
+	text-align: center;
+	display: table;
+	width: 100%;
+	background-image : url(categoriesBackground.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+div.catCell {
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	border: 5px solid black;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px;
+	text-decoration: none;
+	color: Indigo;
+}
+
+div.catCell:hover {
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	border: 5px solid indigo;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px;
+	text-decoration: none;
+	color: White;
+	background: -webkit-radial-gradient(center, circle, BlueViolet 50%, Indigo );
+	background: -moz-radial-gradient(center, circle, BlueViolet 50%, Indigo );
+	background: -o-radial-gradient(center, circle, BlueViolet 50%, Indigo );
+	background: -ms-radial-gradient(center, circle, BlueViolet 50%, Indigo );
+}
+
+a {
+	text-decoration: none;
+}
