@@ -1,0 +1,245 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> MHTM | Categories </title>
+		<meta charset = "utf-8" >
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel = "stylesheet" href = "css.css" />
+		<script src = "search.js" ></script>
+	</head>
+	<body id = "" >
+		<header>
+			<div class = "logo" >
+				<a href = "home.html" ><img src = "logo.png" width = "200" height = "150" alt = "Logo" /></a>
+			</div>
+			<div  >
+				<h1> My How To Manuals </h1>
+				<h2> Your manual on how to do everything </h2>
+			</div>
+			<div>
+				<form onsubmit="return redirect();" >
+					<input id="search" type="text" size = "60%" placeholder = "Search..." />
+					<input type="submit" value="Search" id = "searchBut" />
+				</form>
+			</div> <br/>
+			<nav>
+				<a href = "home.html" class = "left" > Home </a> &nbsp;
+				<a href = "categories.html" > Categories </a> &nbsp;
+				<a href = "aboutUs.html" class = "right" > About Us </a> 
+			</nav>
+			
+		</header>
+		
+		<section class = "catContent" >
+			<h2 class = "heading" > Categories </h2>
+			<a href = "arts&Craft.html" >
+				<div class = "catCell" onmouseover = "artsOver()" onmouseout = "artsOut()" >
+					<img id = "arts" src = "arts&CraftIcon.png" width = "100%" height = "150px" />
+					<h3 > Arts & Craft </h3>
+				</div>
+			</a>
+			
+			<a href = "dance&Entertainment.html" >
+				<div class = "catCell" onmouseover = "danceOver()" onmouseout = "danceOut()" >
+					<img id = "dance" src = "dance&EntertainmentIcon.png" width = "100%%" height = "150px" />
+					<h3 > Dance & Entertainment </h3>
+				</div>
+			</a>
+			
+			<a href = "food&Drink.html" >
+				<div class = "catCell" onmouseover = "foodOver()" onmouseout = "foodOut()" >
+					<img id = "food" src = "food&DrinkIcon.png" width = "100%" height = "150px" />
+					<h3 > Food & Drink </h3>
+				</div>
+			</a>
+			
+			<a href = "health.html" >
+				<div class = "catCell" onmouseover = "healthOver()" onmouseout = "healthOut()" >
+					<img id = "health" src = "healthIcon.png" width = "100%" height = "150px" />
+					<h3 > Health </h3>
+				</div>
+			</a>
+			
+			<a href = "homeCat.html" >	
+				<div class = "catCell" onmouseover = "homeOver()" onmouseout = "homeOut()" >
+					<img id = "home" src = "homeIcon.png" width = "100%" height = "150px" />
+					<h3 > Home </h3>
+				</div>
+			</a>	
+			
+			<a href = "l&r.html" >			
+				<div class = "catCell" onmouseover = "loveOver()" onmouseout = "loveOut()" >
+					<img id = "love" src = "love&RelationshipsIcon.png" width = "100%" height = "150px" />
+					<h3 > Love & Relationships </h3>
+				</div>
+			</a>
+			
+			<a href = "money&edu.html" >
+				<div class = "catCell" onmouseover = "moneyOver()" onmouseout = "moneyOut()" >
+					<img id = "money" src = "money&EducationIcon.png" width = "100%" height = "150px" />
+					<h3 > Money & Education </h3>
+				</div>
+			</a>
+			
+			<a href = "parenting&Pets.html" >
+				<div class = "catCell" onmouseover = "parentingOver()" onmouseout = "parentingOut()" >
+					<img id = "parenting" src = "parenting&PetsIcon.png" width = "100%" height = "150px" />
+					<h3> Parenting & Pets </h3>
+				</div>
+			</a>
+			
+			<a href = "personalCare&Style.html" >
+				<div class = "catCell" onmouseover = "groomingOver()" onmouseout = "groomingOut()" >
+					<img id = "grooming" src = "personalCare&StyleIcon.png" width = "100%" height = "150px" />
+					<h3> Personal Care & Style </h3>
+				</div>
+			</a>
+				
+			<a href = "sports&Fitness.html" >
+				<div class = "catCell" onmouseover = "sportsOver()" onmouseout = "sportsOut()" >
+					<img id = "sports" src = "sports&FitnessIcon.png" width = "100%" height = "150px" />
+					<h3 > Sports & Fitness </h3>
+				</div>
+			</a>
+			
+			<a href = "tech&Gadgets.html" >
+				<div class = "catCell" onmouseover = "techOver()" onmouseout = "techOut()" >
+					<img id = "tech" src = "technologyIcon.png" width = "100%" height = "150px" />
+					<h3 > Tech & Gadgets </h3 >
+				</div>
+			</a>
+			
+			<a href = "videoGames.html" >
+				<div class = "catCell" onmouseover = "gamesOver()" onmouseout = "gamesOut()" >
+					<img id = "games" src = "gamesIcon.png" width = "100%" height = "150px" />
+					<h3 > Video Games </h3 >
+				</div>
+			</a>
+		</section>
+		
+		<footer>
+			<a href = "home.html" class = "left" > Home </a> &nbsp; | &nbsp; <a href = "contactUs.html" > Contact Us </a> &nbsp; | &nbsp; <a href = "aboutUs.html" class = "right" > About Us </a> 
+		</footer>
+		<script>
+			function artsOver() {
+				img = document.getElementById("arts");
+				img.src = "arts&CraftIconOver.png";
+			}
+			
+			function artsOut() {
+				img = document.getElementById("arts");
+				img.src = "arts&CraftIcon.png"
+			}
+			
+			function danceOver() {
+				img = document.getElementById("dance");
+				img.src = "dance&EntertainmentIconOver.png";
+			}
+			
+			function danceOut() {
+				img = document.getElementById("dance");
+				img.src = "dance&EntertainmentIcon.png"
+			}
+			
+			function foodOver() {
+				img = document.getElementById("food");
+				img.src = "food&DrinkIconOver.png";
+			}
+			
+			function foodOut() {
+				img = document.getElementById("food");
+				img.src = "food&DrinkIcon.png"
+			}
+			
+			function healthOver() {
+				img = document.getElementById("health");
+				img.src = "healthIconOver.png";
+			}
+			
+			function healthOut() {
+				img = document.getElementById("health");
+				img.src = "healthIcon.png"
+			}
+			
+			function loveOver() {
+				img = document.getElementById("love");
+				img.src = "love&RelationshipsIconOver.png";
+			}
+			
+			function loveOut() {
+				img = document.getElementById("love");
+				img.src = "love&RelationshipsIcon.png"
+			}
+			
+			function homeOver() {
+				img = document.getElementById("home");
+				img.src = "homeIconOver.png";
+			}
+			
+			function homeOut() {
+				img = document.getElementById("home");
+				img.src = "homeIcon.png"
+			}
+			
+			function moneyOver() {
+				img = document.getElementById("money");
+				img.src = "money&EducationIconOver.png";
+			}
+			
+			function moneyOut() {
+				img = document.getElementById("money");
+				img.src = "money&EducationIcon.png"
+			}
+			
+			function techOver() {
+				img = document.getElementById("tech");
+				img.src = "technologyIconOver.png";
+			}
+			
+			function techOut() {
+				img = document.getElementById("tech");
+				img.src = "technologyIcon.png"
+			}
+			
+			function gamesOver() {
+				img = document.getElementById("games");
+				img.src = "gamesIconOver.png";
+			}
+			
+			function gamesOut() {
+				img = document.getElementById("games");
+				img.src = "gamesIcon.png";
+			}
+			
+			function parentingOver() {
+				img = document.getElementById("parenting");
+				img.src = "parenting&PetsIconOver.png";
+			}
+			
+			function parentingOut() {
+				img = document.getElementById("parenting");
+				img.src = "parenting&PetsIcon.png"
+			}
+			
+			function groomingOver() {
+				img = document.getElementById("grooming");
+				img.src = "personalCare&StyleIconOver.png";
+			}
+			
+			function groomingOut() {
+				img = document.getElementById("grooming");
+				img.src = "personalCare&StyleIcon.png"
+			}
+			
+			function sportsOver() {
+				img = document.getElementById("sports");
+				img.src = "sports&FitnessIconOver.png";
+			}
+			
+			function sportsOut() {
+				img = document.getElementById("sports");
+				img.src = "sports&FitnessIcon.png"
+			}
+		</script>
+	</body>
+</html>
